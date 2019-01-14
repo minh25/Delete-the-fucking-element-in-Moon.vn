@@ -1,0 +1,7 @@
+// ==UserScript==
+// @name     Remove the fucking element in Moon.vn
+// @include  https://moon.vn/*
+// @require  https://code.jquery.com/jquery-2.1.4.min.js
+// ==/UserScript==
+var $ = window.jQuery;
+$("#Panel3").remove();
